@@ -20,11 +20,13 @@ jQuery(document).ready(function($){
 
 	//open modal window
 	modalTrigger.on('click', function(event){
+		var target = $(this).attr('href');
 		event.preventDefault();
 		transitionLayer.addClass('visible opening');
 		var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 600;
 		setTimeout(function(){
-			modalWindow.addClass('visible');
+			// modalWindow.addClass('visible');
+			$(target).addClass('visible');
 		}, delay);
 	});
 
