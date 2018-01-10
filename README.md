@@ -1,4 +1,4 @@
-#Generic App Skeleton
+# Generic App Skeleton
 This is my app skeleton for setting up a new app project. It uses Gulp + BrowserSync to spin up a simple server and watches for changes to your HTML/SCSS/JS files.
 
 To get started, clone this repo and run:
@@ -15,7 +15,7 @@ To start watching for changes to your .scss, .js, and .html files and spin up a 
 gulp
 ````
 
-###Build for Production
+### Build for Production
 To run the built in build tasks for a production site (which includes optimizing images, concatenating + minifying your JS and CSS, copying fonts over, and cleaning up old files) run:
 
 ````
